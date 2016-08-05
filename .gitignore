@@ -1,0 +1,11 @@
+node_modules
+build
+coverage/
+*.log
+.*.swp
+._*
+.DS_Store
+npm-debug.log
+.git
+.hg
+.npmrc
