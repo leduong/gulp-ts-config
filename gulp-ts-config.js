@@ -1,16 +1,17 @@
 'use strict';
 
+var path = require('path');
 var through = require('through2'),
-    gutil = require('gulp-util'),
-    _ = require('lodash'),
-    fs = require('fs'),
-    jsYaml = require('js-yaml'),
-    templateFilePath = __dirname + '/template.ts',
-    PluginError = gutil.PluginError,
-    VALID_TYPES = ['constant', 'value'],
-    PLUGIN_NAME = 'gulp-ts-config',
-    WRAP_TEMPLATE = '',
-    ES6_TEMPLATE = '';
+  gutil = require('gulp-util'),
+  _ = require('lodash'),
+  fs = require('fs'),
+  jsYaml = require('js-yaml'),
+  templateFilePath = path.join(__dirname, '/template.ts'),
+  PluginError = gutil.PluginError,
+  VALID_TYPES = ['constant', 'value'],
+  PLUGIN_NAME = 'gulp-ts-config',
+  WRAP_TEMPLATE = '',
+  ES6_TEMPLATE = '';
 
 function gulpTsConfig(moduleName, configuration) {
   var templateFile, stream, defaults;
@@ -92,7 +93,7 @@ function gulpTsConfig(moduleName, configuration) {
     } else if (configuration.pretty === true) {
       spaces = 2;
     } else if (!isNaN(configuration.pretty) && Number.isFinite(configuration.pretty)) {
-      spaces = parseInt(configuration.pretty);
+      spaces = parseInt(configuration.pretty, 10);
     } else {
       this.emit('error', new PluginError(
         PLUGIN_NAME,
