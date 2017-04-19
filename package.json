@@ -1,6 +1,6 @@
 {
   "name": "gulp-ts-config",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Typescript configuration generator",
   "author": "Le Duong",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "url": "https://github.com/leduong/gulp-ts-config/issues"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "./node_modules/.bin/gulp test"
   },
   "engines": {
     "node": ">=0.10",
