@@ -1,12 +1,14 @@
-#gulp-ts-config
+# gulp-ts-config
+[![Paypal](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=me%40leduong%2ecom&lc=VN&currency_code=USD&bn=PP%2dDonationsBF%3adonate%2dpaypal%2dblue%2epng%3aNonHosted)
+[![Gratipay Team](https://img.shields.io/gratipay/Angular-VN/shields.svg)](https://gratipay.com/Angular-VN)
+
 
 [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://npmjs.org/package/gulp-ts-config)
 [![NPM version](http://img.shields.io/npm/v/gulp-ts-config.svg?style=flat)](https://npmjs.org/package/gulp-ts-config)
 [![NPM version](http://img.shields.io/npm/dm/gulp-ts-config.svg?style=flat)](https://npmjs.org/package/gulp-ts-config)
 [![Build Status](http://img.shields.io/travis/leduong/gulp-ts-config.svg?style=flat)](http://travis-ci.org/leduong/gulp-ts-config)
 [![Coverage Status](https://coveralls.io/repos/leduong/gulp-ts-config/badge.svg?branch=master&service=github)](https://coveralls.io/github/leduong/gulp-ts-config?branch=master)
-[![Code Climate](https://codeclimate.com/github/leduong/gulp-ts-config/badges/gpa.svg)](https://codeclimate.com/github/leduong/gulp-ts-config)
-[![Dependency Status](https://gemnasium.com/badges/github.com/leduong/gulp-ts-config.svg)](https://gemnasium.com/github.com/leduong/gulp-ts-config)
+[![dependencies Status](https://david-dm.org/leduong/gulp-ts-config/status.svg)](https://david-dm.org/leduong/gulp-ts-config)
 
 [![NPM](https://nodei.co/npm/gulp-ts-config.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gulp-ts-config/)
 
