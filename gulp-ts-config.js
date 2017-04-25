@@ -27,7 +27,7 @@ function gulpTsConfig(moduleName, configuration) {
   if (!moduleName) {
     throw new PluginError(PLUGIN_NAME, 'Missing required moduleName option for gulp-ts-config');
   }
-  if( typeof _.contains === 'undefined' ) {
+  if (typeof _.contains === 'undefined') {
     _.contains = _.includes;
   }
 
